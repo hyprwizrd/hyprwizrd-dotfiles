@@ -1,3 +1,8 @@
+
+### ---------------------------
+###  Still under development !
+### ---------------------------
+
 # 🌙 HyprWizrd – Arch Linux Hyprland Rice  
 A clean, modern, and minimal Hyprland setup built on Arch Linux.  
 This rice focuses on a cohesive visual experience using Catppuccin-inspired colors, fast tools, and lightweight applications configured for speed and aesthetics.
@@ -54,5 +59,3 @@ cd arch-hyprland-dotfiles
 🎨 Screenshots
 
 💬 Notes
-
-
