@@ -22,7 +22,7 @@ This dotfile collection includes a polished workflow across the terminal, bar, n
 
 **Terminal & Tools**
 - Kitty / Alacritty (Terminals)
-- Neovim (Editor)
+- Neovim (Editor) --->> (Install Lazyvim)
 - Fastfetch (System info)
 - eza (Modern LS)
 - bat (Better cat)
@@ -35,6 +35,13 @@ This dotfile collection includes a polished workflow across the terminal, bar, n
 - Nautilus (File Manager)
 - Yazi (TUI file manager)
 - Zathura (PDF Reader)
+
+## Install Required Font
+Install JetBrainsMono Nerd Font:
+
+```bash
+sudo pacman -S ttf-jetbrains-mono-nerd
+```
 
 ## Required Packages
 
@@ -117,10 +124,34 @@ reboot
 
 ## Additional Theming (Catppuccin + Icons + Cursors)
 
+### SDDM Theming (Sugar Candy Theme)
+
+ 1. Copy Custom Wallpaper
+
+```bash
+sudo cp sddm_wallpaper/sddm-cat-back.png /usr/share/sddm/themes/Sugar-Candy/Backgrounds/
+```
+
+ 2. Edit Theme Config
+
+```bash
+sudo nano /usr/share/sddm/themes/Sugar-Candy/theme.conf
+```
+
+Use these settings:
+
+```
+Background="Backgrounds/sddm-cat-back.png"
+MainColor="#89b4fa"
+AccentColor="#89b4fa"
+BackgroundColor="#1e1e2e"
+Font="JetBrainsMono Nerd Font"
+HeaderText="Namaste!"
+FontSize="14"
+```
+
 ### Firefox Theme – Catppuccin
 https://addons.mozilla.org/en-US/firefox/addon/catpuccin/
-
-
 
 ### GTK Theme – Catppuccin Mocha
 Install using yay:
@@ -154,4 +185,19 @@ Apply using **nwg-look** → Icons → **MacTahoe**.
 
 #### ⚠️ Still in development — if something breaks, just pretend it’s a feature 😅
 ### Thanks for stopping by! 😊
+
+/usr/share/sddm/themes/Sugar-Candy/Backgrounds
+copt the sddm-cat-back.png from sddm_wallpaper to the above folder
+
+
+change the below settings in theme.config file
+/usr/share/sddm/themes/Sugar-Candy
+
+Background="Backgrounds/sddm-cat-back.png"
+MainColor="#89b4fa"
+AccentColor="#89b4fa"
+BackgroundColor="#1e1e2e"
+Font="JetBrainsMono Nerd Font"
+HeaderText="Namaste!"
+FontSize="14"
 
