@@ -185,19 +185,3 @@ Apply using **nwg-look** → Icons → **MacTahoe**.
 
 #### ⚠️ Still in development — if something breaks, just pretend it’s a feature 😅
 ### Thanks for stopping by! 😊
-
-/usr/share/sddm/themes/Sugar-Candy/Backgrounds
-copt the sddm-cat-back.png from sddm_wallpaper to the above folder
-
-
-change the below settings in theme.config file
-/usr/share/sddm/themes/Sugar-Candy
-
-Background="Backgrounds/sddm-cat-back.png"
-MainColor="#89b4fa"
-AccentColor="#89b4fa"
-BackgroundColor="#1e1e2e"
-Font="JetBrainsMono Nerd Font"
-HeaderText="Namaste!"
-FontSize="14"
-
