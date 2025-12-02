@@ -1,7 +1,7 @@
 # [HyprWizrd]
 ## Screenshots
 
-![description]()
+![Preview](https://raw.githubusercontent.com/hyprwizrd/hyprwizrd-dotfiles/main/preview/preview.gif)
 
 ## Hyprland Dotfiles – Arch Linux + Catppuccin = Purrfection ☕
 
