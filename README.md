@@ -50,7 +50,7 @@ Make sure these packages are installed before applying the dotfiles:
 ```
 sudo pacman -S hyprland waybar rofi hyprlock hyprpaper hypridle \
 alacritty kitty neovim dunst yazi zathura nautilus nwg-look \
-btop bat eza cava fastfetch hyprshot hyprpicker imv
+btop bat eza cava fastfetch hyprshot hyprpicker imv networkmanager
 ```
 
 ## Included Configurations
