@@ -86,12 +86,12 @@ window#waybar.hidden {
 
 #memory {
   color: #fab387;
-  padding-right: 17px;
+  padding-right: 10px;
 }
 
 #battery {
   color: #f38ba8;
-  padding-right: 17px;
+  padding-right: 10px;
 }
 
 #battery.warning,
@@ -110,12 +110,12 @@ window#waybar.hidden {
 
 #wireplumber {
   color: #f9e2af;
-  padding-right: 17px;
+  padding-right: 12px;
 }
 
 #network {
   color: #94e2d5;
-  padding-right: 17px;
+  padding-right: 14px;
 }
 
 #clock {
