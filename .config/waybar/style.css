@@ -1,0 +1,142 @@
+/* ────────── Waybar Styles ────────── */
+
+ * {
+  border: none;
+  border-radius: 0;
+  min-height: 0;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  font-size: 13px;
+}
+
+window#waybar {
+  background-color: #1e1e2e;
+  transition-property: background-color, opacity;
+  transition-duration: 0.25s;
+}
+
+window#waybar.hidden {
+  opacity: 0.0;
+}
+
+#workspaces {
+  background: transparent;
+}
+
+#workspaces button {
+  all: initial;
+  min-width: 0;
+  padding: 3px 9px;
+  margin: 4px 4px;
+  border-radius: 3px;
+  background-color: #313244;
+  color: #b4befe;
+  font-family: "JetBrainsMono Nerd Font", monospace;
+}
+
+#workspaces button.active {
+  background-color: #cba6f7;
+  color: #1e1e2e;
+  font-weight: 600;
+}
+
+#workspaces button:hover {
+  background-color: #89b4fa;
+  color: #1e1e2e;
+}
+
+#workspaces button.urgent {
+  background-color: #f38ba8;
+  color: #1e1e2e;
+}
+
+#memory,
+#custom-power,
+#battery,
+#backlight,
+#wireplumber,
+#network,
+#clock,
+#tray {
+  margin: 4px 4px;
+  padding: 3px 10px;
+  background-color: #313244;
+  border-radius: 3px;
+  color: #cdd6f4;
+}
+
+#memory:hover,
+#custom-power:hover,
+#battery:hover,
+#backlight:hover,
+#wireplumber:hover,
+#network:hover,
+#clock:hover,
+#tray:hover {
+  background-color: #45475a;
+}
+
+#custom-logo {
+  padding: 0 6px;
+  margin: 4px 6px 4px 0px;
+  font-size: 18px;
+  border-radius: 0;
+  background: transparent;
+  color: #89b4fa;
+}
+
+#memory {
+  color: #fab387;
+  padding-right: 17px;
+}
+
+#battery {
+  color: #f38ba8;
+  padding-right: 17px;
+}
+
+#battery.warning,
+#battery.critical,
+#battery.urgent {
+  color: #ff0000;
+}
+
+#battery.charging {
+  color: #a6e3a1;
+}
+
+#backlight {
+  color: #fab387;
+}
+
+#wireplumber {
+  color: #f9e2af;
+  padding-right: 17px;
+}
+
+#network {
+  color: #94e2d5;
+  padding-right: 17px;
+}
+
+#clock {
+  font-family: "JetBrainsMono Nerd Font", monospace;
+  color: #ddb6f2;
+}
+
+#custom-power {
+  color: #f2cdcd;
+  padding-right: 12px;
+}
+
+tooltip {
+  border-radius: 8px;
+  padding: 10px;
+  background-color: #1e1e2e;
+}
+
+tooltip label {
+  padding: 2px 4px;
+  background-color: transparent;
+  color: #cdd6f4;
+}
+
