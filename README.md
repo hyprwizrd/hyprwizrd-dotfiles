@@ -1,9 +1,8 @@
 # [HyprWizrd]
-## Screenshots
-
-![Preview](https://raw.githubusercontent.com/hyprwizrd/hyprwizrd-dotfiles/main/preview/preview.gif)
 
 ## Hyprland Dotfiles – Arch Linux + Catppuccin = Purrfection ☕
+
+![Preview](https://raw.githubusercontent.com/hyprwizrd/hyprwizrd-dotfiles/main/preview/preview.gif)
 
 A clean, minimal and fully themed Hyprland setup for Arch Linux, styled with a Catppuccin Mocha inspired aesthetic.  
 This dotfile collection includes a polished workflow across the terminal, bar, notifications, shell, system tools, and UI.
