@@ -64,10 +64,12 @@ Install JetBrainsMono Nerd Font:
 sudo pacman -S ttf-jetbrains-mono-nerd noto-fonts
 ```
 
-If SDDM or any app shows incorrect/missing characters, install the full Nerd Fonts package:
+Install Additional Fonts Included in This Repo: `~/hyprwizrd-dotfiles/fonts`
 
 ``` bash
-sudo pacman -S nerd-fonts
+mkdir -p ~/.local/share/fonts
+cp ~/hyprwizrd-dotfiles/fonts/*.ttf ~/.local/share/fonts/
+fc-cache -fv
 ```
 
 ## Required Packages
