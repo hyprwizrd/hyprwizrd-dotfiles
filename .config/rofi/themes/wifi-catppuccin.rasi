@@ -1,0 +1,4 @@
+@import "~/.config/rofi/themes/rofi-bluetooth-mocha.rasi"
+configuration {
+    font: "JetBrainsMono Nerd Font 12";
+}

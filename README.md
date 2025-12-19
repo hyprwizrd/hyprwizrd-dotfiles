@@ -13,7 +13,7 @@ This dotfile collection includes a polished workflow across the terminal, bar, n
 - **Rofi Bluetooth Menu** — thanks to  
   👉 https://github.com/nickclyde/rofi-bluetooth  
 - **Waybar Bluetooth Indicator**
-
+- **Network Manager iwctl Waybar**
 <details>
 <summary>📸 Image Previews ↴</summary>
 
@@ -79,7 +79,8 @@ Make sure these packages are installed before applying the dotfiles:
 ```
 sudo pacman -S hyprland waybar rofi hyprlock hyprpaper hypridle \
 alacritty kitty neovim dunst yazi zathura nautilus nwg-look \
-btop bat eza cava fastfetch hyprshot hyprpicker imv networkmanager
+btop bat eza cava fastfetch hyprshot hyprpicker imv networkmanager \
+pavucontrol iwd
 ```
 
 ## Included Configurations

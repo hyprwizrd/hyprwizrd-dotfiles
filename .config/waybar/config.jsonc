@@ -87,7 +87,7 @@
     "tooltip-format-ethernet": "󰀂  {ifname}\n⇣{bandwidthDownBytes}  ⇡{bandwidthUpBytes}",
     "tooltip-format-disconnected": "Disconnected",
 
-    "on-click": "alacritty --title nmtui -e nmtui",
+    "on-click": "~/.config/rofi/wifi/iwctl-rofi-wifi.sh",
 
     "interval": 5,
     "nospacing": 1
@@ -103,6 +103,7 @@
     },
     "tooltip-format": "Volume : {volume}%",
     "on-click": "pamixer -t",
+    "on-click-right": "pavucontrol",
     "scroll-step": 1,
     "nospacing": 1
   },
